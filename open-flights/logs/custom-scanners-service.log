@@ -1,0 +1,63 @@
+2022-03-05 15:10:44.032  INFO 27755 --- [main] c.h.a.c.CustomScannersServiceApplication : Starting CustomScannersServiceApplication on mihailo-HP-Laptop-15-db1xxx with PID 27755 (/home/mihailo/.vscode/extensions/hcltechnologies.hclappscancodesweep-1.2.0/lib/custom-scanners-service-1.0.12.jar started by mihailo in /home/mihailo/RoR-Rest/open-flights)
+2022-03-05 15:10:44.042  INFO 27755 --- [main] c.h.a.c.CustomScannersServiceApplication : No active profile set, falling back to default profiles: default
+2022-03-05 15:10:45.089  INFO 27778 --- [main] c.h.a.c.CustomScannersServiceApplication : Starting CustomScannersServiceApplication on mihailo-HP-Laptop-15-db1xxx with PID 27778 (/home/mihailo/.vscode/extensions/hcltechnologies.hclappscancodesweep-1.2.0/lib/custom-scanners-service-1.0.12.jar started by mihailo in /home/mihailo/RoR-Rest/open-flights)
+2022-03-05 15:10:45.098  INFO 27778 --- [main] c.h.a.c.CustomScannersServiceApplication : No active profile set, falling back to default profiles: default
+2022-03-05 15:10:52.426  INFO 27755 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9221 (http)
+2022-03-05 15:10:52.467  INFO 27755 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-05 15:10:52.472  INFO 27755 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-03-05 15:10:52.752  INFO 27755 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-05 15:10:52.765 DEBUG 27755 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-03-05 15:10:52.766  INFO 27755 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8344 ms
+2022-03-05 15:10:52.916  INFO 27778 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9221 (http)
+2022-03-05 15:10:52.958  INFO 27778 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-05 15:10:52.959  INFO 27778 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-03-05 15:10:53.191  INFO 27778 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-05 15:10:53.203 DEBUG 27778 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-03-05 15:10:53.204  INFO 27778 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7803 ms
+2022-03-05 15:10:53.541 DEBUG 27755 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-03-05 15:10:53.542 DEBUG 27755 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2022-03-05 15:10:53.905 DEBUG 27778 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-03-05 15:10:53.906 DEBUG 27778 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2022-03-05 15:10:57.334 DEBUG 27755 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2022-03-05 15:10:57.552  INFO 27755 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-05 15:10:57.634 DEBUG 27778 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2022-03-05 15:10:57.730  INFO 27778 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-05 15:10:58.011  INFO 27778 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-05 15:10:58.016  INFO 27755 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-05 15:10:58.366  INFO 27778 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-05 15:10:58.436  INFO 27755 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-05 15:10:58.500 DEBUG 27778 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-03-05 15:10:58.536 DEBUG 27755 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-03-05 15:10:58.971 DEBUG 27778 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-03-05 15:10:59.016 DEBUG 27778 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-03-05 15:10:59.132 DEBUG 27755 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-03-05 15:10:59.213 DEBUG 27755 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-03-05 15:10:59.438  INFO 27778 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-03-05 15:10:59.568  INFO 27778 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-03-05 15:10:59.640  INFO 27755 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-03-05 15:10:59.761  INFO 27778 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-03-05 15:10:59.777  INFO 27755 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-03-05 15:10:59.963  INFO 27755 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-03-05 15:11:01.002  INFO 27778 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9221 (http) with context path ''
+2022-03-05 15:11:01.010  INFO 27778 --- [main] c.h.a.c.CustomScannersServiceApplication : Started CustomScannersServiceApplication in 23.132 seconds (JVM running for 28.682)
+2022-03-05 15:11:01.052  INFO 27755 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-05 15:11:01.116  INFO 27755 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-05 15:11:01.128 ERROR 27755 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9221 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9221 or configure this application to listen on another port.
+
+2022-03-05 15:11:01.164  INFO 27755 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-05 15:11:01.782  INFO 27755 --- [Thread-0] c.h.a.s.s.services.ArticleResource       : Completed reading English articles
+2022-03-05 15:11:01.856  INFO 27778 --- [Thread-0] c.h.a.s.s.services.ArticleResource       : Completed reading English articles
